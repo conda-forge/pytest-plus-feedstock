@@ -1,11 +1,11 @@
-About pytest-plus
-=================
+About pytest-plus-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-plus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pycontribs/pytest-plus
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-plus-feedstock/blob/main/LICENSE.txt)
 
 Summary: PyTest Plus Plugin :: extends pytest functionality
 
