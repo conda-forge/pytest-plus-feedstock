@@ -1,5 +1,5 @@
 {% set name = "pytest-plus" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-plus-{{ version }}.tar.gz
-  sha256: ec045edf82efbc72a22fa1287c714bceb87318836c41e4cb031539e169cc7fa1
+  sha256: 6c7b64c6d219a6c12a635385530c9771b97b587541636c072135aa592282849c
 
 build:
   number: 0
