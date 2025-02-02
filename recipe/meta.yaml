@@ -1,5 +1,7 @@
 {% set name = "pytest-plus" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.1" %}
+# minimum supported python version is 3.10
+{% set python_min = "3.10" %}
 
 
 package:
@@ -7,11 +9,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest-plus-{{ version }}.tar.gz
-  sha256: 4e958161332d46dab8a2ce5f354e4c5e79508984b66605c5e789bf1220f1c669
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 02dfb28f1a914e8df3b6e3525df7e94feabc0681ecea626912e8028e9355f02c
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
